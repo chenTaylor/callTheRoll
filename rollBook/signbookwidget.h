@@ -51,8 +51,6 @@ private:
 
     void sendsigned();
 
-    void paintEvent(QPaintEvent *);
-
     QLabel *signnameDisplayLabel;
 
     QPushButton *rebackButton;
@@ -68,6 +66,13 @@ private:
     QPoint m_startPoint;
     QPoint m_windowPoint;
 
+protected:
+    //控制窗口移动
+    void mousePressEvent(QMouseEvent *event);
+    void mouseMoveEvent(QMouseEvent *event);
+    void mouseReleaseEvent(QMouseEvent *event);
+    void enterEvent(QEvent *);
+    void leaveEvent(QEvent *);
 
 
 };

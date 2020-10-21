@@ -54,6 +54,191 @@ rollBookWidget::rollBookWidget(QWidget *parent) :
     this->connect(inputButton, SIGNAL(clicked()), this, SLOT(inputButtonClicked()));
     this->connect(beginButton, SIGNAL(clicked()), this, SLOT(beginButtonClicked()));
 
+    inputButton->setStyleSheet(
+                       //正常状态样式
+                       "QPushButton"
+                       "{"
+                       "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
+                       "border-width:10px;"                    //边框宽度像素
+                       "border-color:rgb(0,0,0);"    //边框颜色
+
+                       "font:bold 20px;"                       //字体，字体大小
+                       "color:rgb(0,0,0);"                //字体颜色
+                       "padding:6px;"                          //填衬
+                       "}"
+
+                       //鼠标按下样式
+                       "QPushButton:pressed"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "border-style:inset;"
+                       "color:rgba(0,0,0,100);"
+                       "}"
+
+                       //鼠标悬停样式
+                       "QPushButton:hover"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "color:rgba(0,0,0,200);"
+                       "}"
+                );
+
+    beginButton->setStyleSheet(
+                //正常状态样式
+                "QPushButton"
+                "{"
+                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
+                "border-width:10px;"                    //边框宽度像素
+                "border-color:rgb(0,0,0);"    //边框颜色
+
+                "font:bold 20px;"                       //字体，字体大小
+                "color:rgb(0,0,0);"                //字体颜色
+                "padding:6px;"                          //填衬
+                "}"
+
+                //鼠标按下样式
+                "QPushButton:pressed"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "border-style:inset;"
+                "color:rgba(0,0,0,100);"
+                "}"
+
+                //鼠标悬停样式
+                "QPushButton:hover"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "color:rgba(0,0,0,200);"
+                "}"
+                );
+
+    quitButton->setStyleSheet(
+                //正常状态样式
+                "QPushButton"
+                "{"
+                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
+                "border-width:10px;"                    //边框宽度像素
+                "border-color:rgb(0,0,0);"    //边框颜色
+
+                "font:bold 20px;"                       //字体，字体大小
+                "color:rgb(0,0,0);"                //字体颜色
+                "padding:6px;"                          //填衬
+                "}"
+
+                //鼠标按下样式
+                "QPushButton:pressed"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "border-style:inset;"
+                "color:rgba(0,0,0,100);"
+                "}"
+
+                //鼠标悬停样式
+                "QPushButton:hover"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "color:rgba(0,0,0,200);"
+                "}"
+                );
+
+    miniButton->setStyleSheet(
+                //正常状态样式
+                "QPushButton"
+                "{"
+                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
+                "border-width:10px;"                    //边框宽度像素
+                "border-color:rgb(0,0,0);"    //边框颜色
+
+                "font:bold 20px;"                       //字体，字体大小
+                "color:rgb(0,0,0);"                //字体颜色
+                "padding:6px;"                          //填衬
+                "}"
+
+                //鼠标按下样式
+                "QPushButton:pressed"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "border-style:inset;"
+                "color:rgba(0,0,0,100);"
+                "}"
+
+                //鼠标悬停样式
+                "QPushButton:hover"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "color:rgba(0,0,0,200);"
+                "}"
+                );
+
+    signedButton->setStyleSheet(
+                //正常状态样式
+                "QPushButton"
+                "{"
+                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
+                "border-width:10px;"                    //边框宽度像素
+                "border-color:rgb(0,0,0);"    //边框颜色
+
+                "font:bold 20px;"                       //字体，字体大小
+                "color:rgb(0,0,0);"                //字体颜色
+                "padding:6px;"                          //填衬
+                "}"
+
+                //鼠标按下样式
+                "QPushButton:pressed"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "border-style:inset;"
+                "color:rgba(0,0,0,100);"
+                "}"
+
+                //鼠标悬停样式
+                "QPushButton:hover"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "color:rgba(0,0,0,200);"
+                "}"
+                );
+
+    markButton->setStyleSheet(
+                //正常状态样式
+                "QPushButton"
+                "{"
+                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
+                "border-width:10px;"                    //边框宽度像素
+                "border-color:rgb(0,0,0);"    //边框颜色
+
+                "font:bold 20px;"                       //字体，字体大小
+                "color:rgb(0,0,0);"                //字体颜色
+                "padding:6px;"                          //填衬
+                "}"
+
+                //鼠标按下样式
+                "QPushButton:pressed"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "border-style:inset;"
+                "color:rgba(0,0,0,100);"
+                "}"
+
+                //鼠标悬停样式
+                "QPushButton:hover"
+                "{"
+                "background-color:rgb(85,140,108);"
+                "border-color:rgba(135,206,255,30);"
+                "color:rgba(0,0,0,200);"
+                "}"
+                );
 
     mainLayout->addWidget(markButton, 0,7);
     mainLayout->addWidget(signedButton, 1,7);
@@ -216,12 +401,70 @@ void rollBookWidget::dealsign()
     show();
 }
 
-//改变窗口背景
-void rollBookWidget::paintEvent(QPaintEvent *event)
-{
 
-    QPixmap pixmap = QPixmap("D:/qt_user/field/field.png").scaled(this->size());//nature、ballon、sea
-    QPainter painter(this);
-    painter.drawPixmap(this->rect(), pixmap);
+
+//{控制窗口移动
+void rollBookWidget::mousePressEvent(QMouseEvent *event)
+{
+    //当鼠标左键点击时
+    if (event->button() == Qt::LeftButton)
+    {
+        movewidget = true;
+        //记录鼠标的世界坐标
+        m_startPoint = event->globalPos();
+        //记录窗体的世界坐标
+        m_windowPoint = this->frameGeometry().topLeft();
+    }
+
 }
+
+void rollBookWidget::mouseMoveEvent(QMouseEvent *event)
+{
+    if (event->buttons() & Qt::LeftButton)
+    {
+        //移动中的鼠标位置相对于初始位置的相对位置
+        QPoint relativePos = event->globalPos() - m_startPoint;
+        //然后移动窗体即可
+        this->move(m_windowPoint + relativePos );
+    }
+
+}
+
+void rollBookWidget::mouseReleaseEvent(QMouseEvent *event)
+{
+    if (event->button() == Qt::LeftButton)
+    {
+        //改变移动状态
+        movewidget = false;
+    }
+
+}
+//控制窗口移动}
+
+void rollBookWidget::enterEvent(QEvent *)
+{
+    QRect rc;
+    QRect rect;
+    rect = this->geometry();
+    rc.setRect(rect.x(),rect.y(),rect.width(),rect.height());
+    if(rect.top()<0)
+    {
+        rect.setX(rc.x());
+        rect.setY(0);
+        move(rc.x(),-2);
+    }
+}
+
+void rollBookWidget::leaveEvent(QEvent *)
+{
+    QRect rc;
+    QRect rect;
+    rect = this->geometry();
+    rc.setRect(rect.x(),rect.y(),rect.width(),rect.height());
+    if(rect.top()<0)
+    {
+        move(rc.x(),-rc.height()+2);
+    }
+}
+
 

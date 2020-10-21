@@ -44,7 +44,6 @@ private:
     void signS();
     void dealsign();
 
-    void paintEvent(QPaintEvent *);
 
     QLabel *nameDisplayLabel;
 
@@ -81,6 +80,13 @@ private slots:
 
     void switchTimeOut();
 
+protected:
+    //控制窗口移动
+    void mousePressEvent(QMouseEvent *event);
+    void mouseMoveEvent(QMouseEvent *event);
+    void mouseReleaseEvent(QMouseEvent *event);
+    void enterEvent(QEvent *);
+    void leaveEvent(QEvent *);
 
 };
 
