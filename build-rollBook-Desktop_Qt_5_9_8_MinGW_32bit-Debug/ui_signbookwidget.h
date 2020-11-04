@@ -30,13 +30,13 @@ public:
     {
         if (signBookWidget->objectName().isEmpty())
             signBookWidget->setObjectName(QStringLiteral("signBookWidget"));
-        signBookWidget->resize(700, 200);
+        signBookWidget->resize(700, 160);
         textBrowser = new QTextBrowser(signBookWidget);
         textBrowser->setObjectName(QStringLiteral("textBrowser"));
-        textBrowser->setGeometry(QRect(10, 10, 471, 181));
+        textBrowser->setGeometry(QRect(10, 10, 461, 141));
         textEdit = new QTextEdit(signBookWidget);
         textEdit->setObjectName(QStringLiteral("textEdit"));
-        textEdit->setGeometry(QRect(20, 20, 451, 161));
+        textEdit->setGeometry(QRect(20, 20, 441, 121));
 
         retranslateUi(signBookWidget);
 

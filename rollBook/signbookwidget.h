@@ -22,6 +22,7 @@
 #include <QScrollArea>
 #include <QTextEdit>
 #include <QTextBrowser>
+#include <QObject>
 namespace Ui {
 class signBookWidget;
 }
@@ -34,6 +35,8 @@ public:
     explicit signBookWidget(QWidget *parent = nullptr);
     ~signBookWidget();
 
+    void paintEvent(QPaintEvent *);
+
 signals:
     void signedSignal();
 
@@ -44,7 +47,8 @@ private slots:
 
     void rebackButtonClicked();
     void showButtonClicked();
-    void saveButtonClick();
+    void saveButtonClicked();
+    //void saveAbsentButtonClicked();
 
 private:
     Ui::signBookWidget *ui;
@@ -56,6 +60,7 @@ private:
     QPushButton *rebackButton;
     QPushButton *saveButton;
     QPushButton *showButton;
+    //QPushButton *saveAbsentButton;
 
     QGridLayout *signLayout;
 

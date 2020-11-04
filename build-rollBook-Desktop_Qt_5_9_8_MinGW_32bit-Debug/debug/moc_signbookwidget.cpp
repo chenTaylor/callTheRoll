@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_signBookWidget_t {
     QByteArrayData data[8];
-    char stringdata0[132];
+    char stringdata0[134];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -38,13 +38,13 @@ QT_MOC_LITERAL(3, 29, 23), // "on_scrollArea_destroyed"
 QT_MOC_LITERAL(4, 53, 24), // "on_textBrowser_destroyed"
 QT_MOC_LITERAL(5, 78, 19), // "rebackButtonClicked"
 QT_MOC_LITERAL(6, 98, 17), // "showButtonClicked"
-QT_MOC_LITERAL(7, 116, 15) // "saveButtonClick"
+QT_MOC_LITERAL(7, 116, 17) // "saveButtonClicked"
 
     },
     "signBookWidget\0signedSignal\0\0"
     "on_scrollArea_destroyed\0"
     "on_textBrowser_destroyed\0rebackButtonClicked\0"
-    "showButtonClicked\0saveButtonClick"
+    "showButtonClicked\0saveButtonClicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -95,7 +95,7 @@ void signBookWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         case 2: _t->on_textBrowser_destroyed(); break;
         case 3: _t->rebackButtonClicked(); break;
         case 4: _t->showButtonClicked(); break;
-        case 5: _t->saveButtonClick(); break;
+        case 5: _t->saveButtonClicked(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {

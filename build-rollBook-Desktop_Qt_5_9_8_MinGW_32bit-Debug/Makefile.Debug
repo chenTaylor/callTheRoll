@@ -219,6 +219,9 @@ debug/moc_rollbookwidget.cpp: ../rollBook/signbookwidget.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayout.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayoutitem.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qboxlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QLabel \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlabel.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qframe.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QTimer \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qtimer.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qbasictimer.h \
@@ -228,8 +231,6 @@ debug/moc_rollbookwidget.cpp: ../rollBook/signbookwidget.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qfileinfo.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qdialog.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextStream \
-		../../../qt/5.9.8/mingw53_32/include/QtCore/QDataStream \
-		../../../qt/5.9.8/mingw53_32/include/QtCore/QFile \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QMessageBox \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qmessagebox.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QDebug \
@@ -240,9 +241,6 @@ debug/moc_rollbookwidget.cpp: ../rollBook/signbookwidget.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/QFontDatabase \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qfontdatabase.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QMutex \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QLabel \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlabel.h \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qframe.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QApplication \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qapplication.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qcoreapplication.h \
@@ -255,6 +253,20 @@ debug/moc_rollbookwidget.cpp: ../rollBook/signbookwidget.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextoption.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qpen.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/QPaintEvent \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextCodec \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qtextcodec.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QScrollArea \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextEdit \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextedit.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextdocument.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextcursor.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextformat.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextBrowser \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextbrowser.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QDataStream \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QFile \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QString \
 		../rollBook/rollbookwidget.h \
 		debug/moc_predefs.h \
@@ -361,6 +373,61 @@ debug/moc_signbookwidget.cpp: ../../../qt/5.9.8/mingw53_32/include/QtWidgets/QWi
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qfiledevice.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qvector2d.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qtouchdevice.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QPushButton \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qpushbutton.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qabstractbutton.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qicon.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QGridLayout \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qgridlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayoutitem.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qboxlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QLabel \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlabel.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qframe.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTimer \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qtimer.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qbasictimer.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QFileDialog \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qfiledialog.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qdir.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qfileinfo.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qdialog.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextStream \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QMessageBox \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qmessagebox.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QDebug \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTime \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qdatetime.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QObject \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/QFont \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/QFontDatabase \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qfontdatabase.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QMutex \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QApplication \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qapplication.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qcoreapplication.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qeventloop.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qdesktopwidget.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qguiapplication.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qinputmethod.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/QPainter \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qpainter.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextoption.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qpen.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/QPaintEvent \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextCodec \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qtextcodec.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QScrollArea \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextEdit \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextedit.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextdocument.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextcursor.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextformat.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextBrowser \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextbrowser.h \
 		../rollBook/signbookwidget.h \
 		debug/moc_predefs.h \
 		../../../qt/5.9.8/mingw53_32/bin/moc.exe
@@ -502,6 +569,9 @@ debug/main.o: ../rollBook/main.cpp ../rollBook/rollbookwidget.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayout.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayoutitem.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qboxlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QLabel \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlabel.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qframe.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QTimer \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qtimer.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qbasictimer.h \
@@ -511,8 +581,6 @@ debug/main.o: ../rollBook/main.cpp ../rollBook/rollbookwidget.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qfileinfo.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qdialog.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextStream \
-		../../../qt/5.9.8/mingw53_32/include/QtCore/QDataStream \
-		../../../qt/5.9.8/mingw53_32/include/QtCore/QFile \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QMessageBox \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qmessagebox.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QDebug \
@@ -523,9 +591,6 @@ debug/main.o: ../rollBook/main.cpp ../rollBook/rollbookwidget.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/QFontDatabase \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qfontdatabase.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QMutex \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QLabel \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlabel.h \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qframe.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QApplication \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qapplication.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qcoreapplication.h \
@@ -538,6 +603,20 @@ debug/main.o: ../rollBook/main.cpp ../rollBook/rollbookwidget.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextoption.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qpen.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/QPaintEvent \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextCodec \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qtextcodec.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QScrollArea \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextEdit \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextedit.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextdocument.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextcursor.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextformat.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextBrowser \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextbrowser.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QDataStream \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QFile \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QString
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\rollBook\main.cpp
 
@@ -652,6 +731,9 @@ debug/rollbookwidget.o: ../rollBook/rollbookwidget.cpp ../rollBook/rollbookwidge
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayout.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayoutitem.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qboxlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QLabel \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlabel.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qframe.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QTimer \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qtimer.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qbasictimer.h \
@@ -661,8 +743,6 @@ debug/rollbookwidget.o: ../rollBook/rollbookwidget.cpp ../rollBook/rollbookwidge
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qfileinfo.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qdialog.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextStream \
-		../../../qt/5.9.8/mingw53_32/include/QtCore/QDataStream \
-		../../../qt/5.9.8/mingw53_32/include/QtCore/QFile \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QMessageBox \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qmessagebox.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QDebug \
@@ -673,9 +753,6 @@ debug/rollbookwidget.o: ../rollBook/rollbookwidget.cpp ../rollBook/rollbookwidge
 		../../../qt/5.9.8/mingw53_32/include/QtGui/QFontDatabase \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qfontdatabase.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QMutex \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QLabel \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlabel.h \
-		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qframe.h \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QApplication \
 		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qapplication.h \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qcoreapplication.h \
@@ -688,6 +765,20 @@ debug/rollbookwidget.o: ../rollBook/rollbookwidget.cpp ../rollBook/rollbookwidge
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextoption.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qpen.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/QPaintEvent \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextCodec \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qtextcodec.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QScrollArea \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextEdit \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextedit.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextdocument.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextcursor.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextformat.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextBrowser \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextbrowser.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QDataStream \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QFile \
 		../../../qt/5.9.8/mingw53_32/include/QtCore/QString \
 		ui_rollbookwidget.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\rollbookwidget.o ..\rollBook\rollbookwidget.cpp
@@ -793,6 +884,61 @@ debug/signbookwidget.o: ../rollBook/signbookwidget.cpp ../rollBook/signbookwidge
 		../../../qt/5.9.8/mingw53_32/include/QtCore/qfiledevice.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qvector2d.h \
 		../../../qt/5.9.8/mingw53_32/include/QtGui/qtouchdevice.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QPushButton \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qpushbutton.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qabstractbutton.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qicon.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QGridLayout \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qgridlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlayoutitem.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qboxlayout.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QLabel \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qlabel.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qframe.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTimer \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qtimer.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qbasictimer.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QFileDialog \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qfiledialog.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qdir.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qfileinfo.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qdialog.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextStream \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QMessageBox \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qmessagebox.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QDebug \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTime \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qdatetime.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QObject \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/QFont \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/QFontDatabase \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qfontdatabase.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QMutex \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QApplication \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qapplication.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qcoreapplication.h \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qeventloop.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qdesktopwidget.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qguiapplication.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qinputmethod.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/QPainter \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qpainter.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextoption.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qpen.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/QPaintEvent \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/QTextCodec \
+		../../../qt/5.9.8/mingw53_32/include/QtCore/qtextcodec.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QScrollArea \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextEdit \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextedit.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextdocument.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextcursor.h \
+		../../../qt/5.9.8/mingw53_32/include/QtGui/qtextformat.h \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/QTextBrowser \
+		../../../qt/5.9.8/mingw53_32/include/QtWidgets/qtextbrowser.h \
 		ui_signbookwidget.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\signbookwidget.o ..\rollBook\signbookwidget.cpp
 

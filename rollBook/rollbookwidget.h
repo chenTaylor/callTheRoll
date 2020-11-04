@@ -44,6 +44,7 @@ private:
     void signS();
     void dealsign();
 
+    void paintEvent(QPaintEvent *);
 
     QLabel *nameDisplayLabel;
 

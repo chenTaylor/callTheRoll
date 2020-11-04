@@ -7,7 +7,7 @@ rollBookWidget::rollBookWidget(QWidget *parent) :
 {
     this->setWindowFlags(Qt::Window);
     this->setWindowTitle(tr("点名"));//设置窗口名
-    this->setFixedSize(700,140);        //设置窗口固定大小
+    this->setFixedSize(700,160);        //设置窗口固定大小
 
     QTime time = QTime::currentTime();  //获得当前时间
     qsrand(time.msec()+time.second()*10000);    //用时间初始化随机数种子
@@ -58,9 +58,9 @@ rollBookWidget::rollBookWidget(QWidget *parent) :
                        //正常状态样式
                        "QPushButton"
                        "{"
-                       "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
+                       "background-color:rgb(135,193,181);"//背景色（也可以设置图片）
                        "border-width:10px;"                    //边框宽度像素
-                       "border-color:rgb(0,0,0);"    //边框颜色
+                       "border-color:rgb(126,192,238);"    //边框颜色
 
                        "font:bold 20px;"                       //字体，字体大小
                        "color:rgb(0,0,0);"                //字体颜色
@@ -86,158 +86,158 @@ rollBookWidget::rollBookWidget(QWidget *parent) :
                 );
 
     beginButton->setStyleSheet(
-                //正常状态样式
-                "QPushButton"
-                "{"
-                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
-                "border-width:10px;"                    //边框宽度像素
-                "border-color:rgb(0,0,0);"    //边框颜色
+                       //正常状态样式
+                       "QPushButton"
+                       "{"
+                       "background-color:rgb(48,108,48);"//背景色（也可以设置图片）
+                       "border-width:10px;"                    //边框宽度像素
+                       "border-color:rgb(126,192,238);"    //边框颜色
 
-                "font:bold 20px;"                       //字体，字体大小
-                "color:rgb(0,0,0);"                //字体颜色
-                "padding:6px;"                          //填衬
-                "}"
+                       "font:bold 20px;"                       //字体，字体大小
+                       "color:rgb(0,0,0);"                //字体颜色
+                       "padding:6px;"                          //填衬
+                       "}"
 
-                //鼠标按下样式
-                "QPushButton:pressed"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "border-style:inset;"
-                "color:rgba(0,0,0,100);"
-                "}"
+                       //鼠标按下样式
+                       "QPushButton:pressed"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "border-style:inset;"
+                       "color:rgba(0,0,0,100);"
+                       "}"
 
-                //鼠标悬停样式
-                "QPushButton:hover"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "color:rgba(0,0,0,200);"
-                "}"
+                       //鼠标悬停样式
+                       "QPushButton:hover"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "color:rgba(0,0,0,200);"
+                       "}"
                 );
 
     quitButton->setStyleSheet(
-                //正常状态样式
-                "QPushButton"
-                "{"
-                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
-                "border-width:10px;"                    //边框宽度像素
-                "border-color:rgb(0,0,0);"    //边框颜色
+                       //正常状态样式
+                       "QPushButton"
+                       "{"
+                       "background-color:rgb(206,215,196);"//背景色（也可以设置图片）
+                       "border-width:10px;"                    //边框宽度像素
+                       "border-color:rgb(126,192,238);"    //边框颜色
 
-                "font:bold 20px;"                       //字体，字体大小
-                "color:rgb(0,0,0);"                //字体颜色
-                "padding:6px;"                          //填衬
-                "}"
+                       "font:bold 20px;"                       //字体，字体大小
+                       "color:rgb(0,0,0);"                //字体颜色
+                       "padding:6px;"                          //填衬
+                       "}"
 
-                //鼠标按下样式
-                "QPushButton:pressed"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "border-style:inset;"
-                "color:rgba(0,0,0,100);"
-                "}"
+                       //鼠标按下样式
+                       "QPushButton:pressed"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "border-style:inset;"
+                       "color:rgba(0,0,0,100);"
+                       "}"
 
-                //鼠标悬停样式
-                "QPushButton:hover"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "color:rgba(0,0,0,200);"
-                "}"
+                       //鼠标悬停样式
+                       "QPushButton:hover"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "color:rgba(0,0,0,200);"
+                       "}"
                 );
 
     miniButton->setStyleSheet(
-                //正常状态样式
-                "QPushButton"
-                "{"
-                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
-                "border-width:10px;"                    //边框宽度像素
-                "border-color:rgb(0,0,0);"    //边框颜色
+                       //正常状态样式
+                       "QPushButton"
+                       "{"
+                       "background-color:rgb(94,144,85);"//背景色（也可以设置图片）
+                       "border-width:10px;"                    //边框宽度像素
+                       "border-color:rgb(126,192,238);"    //边框颜色
 
-                "font:bold 20px;"                       //字体，字体大小
-                "color:rgb(0,0,0);"                //字体颜色
-                "padding:6px;"                          //填衬
-                "}"
+                       "font:bold 20px;"                       //字体，字体大小
+                       "color:rgb(0,0,0);"                //字体颜色
+                       "padding:6px;"                          //填衬
+                       "}"
 
-                //鼠标按下样式
-                "QPushButton:pressed"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "border-style:inset;"
-                "color:rgba(0,0,0,100);"
-                "}"
+                       //鼠标按下样式
+                       "QPushButton:pressed"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "border-style:inset;"
+                       "color:rgba(0,0,0,100);"
+                       "}"
 
-                //鼠标悬停样式
-                "QPushButton:hover"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "color:rgba(0,0,0,200);"
-                "}"
+                       //鼠标悬停样式
+                       "QPushButton:hover"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "color:rgba(0,0,0,200);"
+                       "}"
                 );
 
     signedButton->setStyleSheet(
-                //正常状态样式
-                "QPushButton"
-                "{"
-                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
-                "border-width:10px;"                    //边框宽度像素
-                "border-color:rgb(0,0,0);"    //边框颜色
+                       //正常状态样式
+                       "QPushButton"
+                       "{"
+                       "background-color:rgb(110,151,72);"//背景色（也可以设置图片）
+                       "border-width:10px;"                    //边框宽度像素
+                       "border-color:rgb(126,192,238);"    //边框颜色
 
-                "font:bold 20px;"                       //字体，字体大小
-                "color:rgb(0,0,0);"                //字体颜色
-                "padding:6px;"                          //填衬
-                "}"
+                       "font:bold 20px;"                       //字体，字体大小
+                       "color:rgb(0,0,0);"                //字体颜色
+                       "padding:6px;"                          //填衬
+                       "}"
 
-                //鼠标按下样式
-                "QPushButton:pressed"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "border-style:inset;"
-                "color:rgba(0,0,0,100);"
-                "}"
+                       //鼠标按下样式
+                       "QPushButton:pressed"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "border-style:inset;"
+                       "color:rgba(0,0,0,100);"
+                       "}"
 
-                //鼠标悬停样式
-                "QPushButton:hover"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "color:rgba(0,0,0,200);"
-                "}"
+                       //鼠标悬停样式
+                       "QPushButton:hover"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "color:rgba(0,0,0,200);"
+                       "}"
                 );
 
     markButton->setStyleSheet(
-                //正常状态样式
-                "QPushButton"
-                "{"
-                "background-color:rgb(255,255,255);"//背景色（也可以设置图片）
-                "border-width:10px;"                    //边框宽度像素
-                "border-color:rgb(0,0,0);"    //边框颜色
+                       //正常状态样式
+                       "QPushButton"
+                       "{"
+                       "background-color:rgb(237,234,203);"//背景色（也可以设置图片）
+                       "border-width:10px;"                    //边框宽度像素
+                       "border-color:rgb(126,192,238);"    //边框颜色
 
-                "font:bold 20px;"                       //字体，字体大小
-                "color:rgb(0,0,0);"                //字体颜色
-                "padding:6px;"                          //填衬
-                "}"
+                       "font:bold 20px;"                       //字体，字体大小
+                       "color:rgb(0,0,0);"                //字体颜色
+                       "padding:6px;"                          //填衬
+                       "}"
 
-                //鼠标按下样式
-                "QPushButton:pressed"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "border-style:inset;"
-                "color:rgba(0,0,0,100);"
-                "}"
+                       //鼠标按下样式
+                       "QPushButton:pressed"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "border-style:inset;"
+                       "color:rgba(0,0,0,100);"
+                       "}"
 
-                //鼠标悬停样式
-                "QPushButton:hover"
-                "{"
-                "background-color:rgb(85,140,108);"
-                "border-color:rgba(135,206,255,30);"
-                "color:rgba(0,0,0,200);"
-                "}"
+                       //鼠标悬停样式
+                       "QPushButton:hover"
+                       "{"
+                       "background-color:rgb(85,140,108);"
+                       "border-color:rgba(135,206,255,30);"
+                       "color:rgba(0,0,0,200);"
+                       "}"
                 );
 
     mainLayout->addWidget(markButton, 0,7);
@@ -272,6 +272,15 @@ rollBookWidget::~rollBookWidget()
 
 void rollBookWidget::markButtonClicked()
 {
+    QFile file("D:/qt_user/field/sign.txt");
+    QString str = strListImport.at(test);
+    QString change="\r\n";
+    //file.open(QIODevice::WriteOnly | QIODevice::Text);
+    file.open(QIODevice::WriteOnly|QIODevice::Append);
+    file.write(str.toUtf8());
+    file.write(change.toUtf8());
+    file.close();
+
 
 }
 
@@ -401,6 +410,14 @@ void rollBookWidget::dealsign()
     show();
 }
 
+//改变窗口背景
+void rollBookWidget::paintEvent(QPaintEvent *event)
+{
+
+    QPixmap pixmap = QPixmap("D:/qt_user/field/field.png").scaled(this->size());//nature、ballon、sea
+    QPainter painter(this);
+    painter.drawPixmap(this->rect(), pixmap);
+}
 
 
 //{控制窗口移动
@@ -466,5 +483,3 @@ void rollBookWidget::leaveEvent(QEvent *)
         move(rc.x(),-rc.height()+2);
     }
 }
-
-
